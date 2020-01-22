@@ -1,0 +1,45 @@
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color:blue;
+}
+
+.green-text {
+  color: green;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.flex-c {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-r {
+  display: flex;
+  -webkit-flex: row;
+  -ms-flex: row;
+  flex: row;
+}
+
+.center {
+  align-: ;
+}
+
+.margin {
+  margin-left: 50px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-top {
+  margin-top: 70px;
+}
