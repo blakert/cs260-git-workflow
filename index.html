@@ -2,53 +2,57 @@
 <html>
   <head>
       <title>Portfolio</title>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
       <link rel="stylesheet" type="text/css" href="./index.css"/>
+
   </head>
 
   <body>
-    <div class="nav">
-      <ul>
+    <div>
+      <ul class="nav" id="no-style">
         <li><a href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
     </ul>
     </div>
-
-
     <div class="margin">
       <h1 class="red-text">Blake T</h1>
     </div>
-      <hr>
-    <div class="margin">
-      <h2 class="blue-text"> About </h2>
-      <p class="margin-bottom">I'm a CS student at BYU, an avid international film fanatic and love BYU's international cinema project.
-      If you haven't already, then <a href="http://ic.byu.edu/">check it out!</a>
-    An avid reader and history buff, I'm currently working through 'A peace to end all peace', on the history of the modern middle east.
-   My favorite food is a plate of sizzling and hot tequneos. I learned spanish with my wife and in-laws.</p>
-    </div>
-    <hr>
-    <div class="margin">
-      <h2 class="green-text">Projects</h2>
-      <ul>
-        <li>Chip 8 emulator! (90% there!)</li>
-        <li>Etch-a-sketch application</li>
-        <li>Online call letter and call packet for missionaries (Church of Jesus Christ of Latter-day Saints)</li>
-      </ul>
-    </div>
-    <hr>
-    <div class="margin">
-      <h2 class="green-text">Experience</h2>
-      <ul>
-        <li>System Administrator: BYU, College of Family, Health and Social Sciences</li>
-        <li>IT Intern: Thriftbooks, LLC</li>
-        <li>Student Software Developer: BYU Center for Teaching and Learning</li>
-        <li>Software Developer Intern: The Church of Jesus Christ of Latter-day Saints</li>
-      </ul>
-    </div>
-    <div class="margin margin-top">
-      <h2>Contact</h2>
-      <a href="https://github.com/blakert">Github!</a>
+    <!-- 4 box div, 2 across, 2 divs at width 50%, with wrap. on media query each div becomes 100% width
+     -->
+    <div class="square">
+      <div class="margin">
+        <h2 class="blue-text"> About </h2>
+        <p class="margin-bottom">I'm a CS student at BYU, an avid international film fanatic and love BYU's international cinema project.
+        If you haven't already, then <a href="http://ic.byu.edu/">check it out!</a>
+      An avid reader and history buff, I'm currently working through 'A peace to end all peace', on the history of the modern middle east.
+     My favorite food is a plate of sizzling and hot tequneos. I learned spanish with my wife and in-laws.</p>
+      </div>
+
+      <div class="margin">
+        <h2 class="green-text">Projects</h2>
+        <ul>
+          <li>Chip 8 emulator! (90% there!)</li>
+          <li>Etch-a-sketch application</li>
+          <li>Online call letter and call packet for missionaries (Church of Jesus Christ of Latter-day Saints)</li>
+        </ul>
+      </div>
+
+      <div class="margin">
+        <h2 class="green-text">Experience</h2>
+        <ul>
+          <li>System Administrator: BYU, College of Family, Health and Social Sciences</li>
+          <li>IT Intern: Thriftbooks, LLC</li>
+          <li>Student Software Developer: BYU Center for Teaching and Learning</li>
+          <li>Software Developer Intern: The Church of Jesus Christ of Latter-day Saints</li>
+        </ul>
+      </div>
+
+      <div class="margin margin-top">
+        <h2>Contact</h2>
+        <a href="https://github.com/blakert">Github!</a>
+      </div>
     </div>
   </body>
 </html>

@@ -1,3 +1,5 @@
+
+
 .red-text {
   color: red;
 }
@@ -14,6 +16,9 @@
   background-color: grey;
 }
 
+ul {
+
+}
 .flex-c {
   display: flex;
   -webkit-flex-direction: column;
@@ -44,16 +49,23 @@
   margin-top: 70px;
 }
 
-.nav ul {
+#no-style {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+
   background-color: #D3D3D3;
+  justify-content: center;
 }
 
+
 .nav li {
-  float: left;
+
 }
 
 .nav li a {
@@ -66,4 +78,25 @@
 
 .nav li a:hover {
   background-color: #111;
+}
+
+.square {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-fow: column wrap;
+}
+.square div {
+  width: 50%;
+}
+@media screen and (max-width: 400px) {
+  .nav {
+    flex-flow: column wrap;
+  }
+  .square {
+    flex-flow: row wrap;
+  }
+  .square div {
+    width: 100%;
+  }
 }
